@@ -1,0 +1,55 @@
+body {
+    font-family: Karla, sans-serif;
+    color: #aaa;
+    background-color: #484848;
+}
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header {
+    margin-top: 50px; /* need help on this */
+    height: 80px;
+}
+#pfp {
+    height: 80px;
+    border-radius: 50%;
+}
+nav {
+    display: inline-block;
+    float: right;
+}
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration-line: underline;
+}
+.link{
+    color: #aaa;
+    font-size: 16px;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+body {margin: 0; padding: 0;}
+.content {
+    width: 900px;
+    margin: auto;
+}
+.NewThing {
+    margin-top: 50px;
+}
+.center {
+    margin: auto;
+}
